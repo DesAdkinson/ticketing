@@ -29,7 +29,7 @@ beforeAll(async () => {
 });
 
 beforeEach(async () => {
-    jest.clearAllMocks();
+    jest.clearAllMocks(); //critical for ID comparisons
     const collections = await mongoose.connection.db.collections();
 
     for (let collection of collections) {
