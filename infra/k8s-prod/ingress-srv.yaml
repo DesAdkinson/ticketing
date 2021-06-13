@@ -26,4 +26,3 @@ spec:
             backend:
               serviceName: client-srv
               servicePort: 3000
-#end of manifest
